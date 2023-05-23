@@ -1,5 +1,18 @@
 package model.dto;
 
+/* DTO(Data Transfer Object)
+ * : 여러 계층간 데이터 전송을 위해 다양한 타입의 데이터를 하나로 묶어 전송할 용도의 클래스
+ *   유사한 말로 VO, Bean, Entity, (DO, Domain, Row) 등이 있음
+ * */
+
+/* DTO 클래스의 조건
+ * 1. 모든 필드는 private
+ * 2. 기본생성자와 모든 필드를 초기화하는 생성자
+ * 3. 모든 필드에 대한 setter/getter
+ * 4. toString Overriding을 이용한 필드 값 반환용 메소드
+ * 5. 직렬화 처리
+ * */
+
 import java.sql.Date;
 
 public class EmployeeDTO {
@@ -11,7 +24,7 @@ public class EmployeeDTO {
     private String phone;
     private String deptCode;
     private String jobCode;
-    private String selLevel;
+    private String salLevel;
     private int salary;
     private Double bonus;
     private String managerId;
@@ -22,7 +35,7 @@ public class EmployeeDTO {
     public EmployeeDTO() {
     }
 
-    public EmployeeDTO(String empId, String empName, String empNo, String email, String phone, String deptCode, String jobCode, String selLevel, int salary, Double bonus, String managerId, Date hireDate, Date entDate, String entYn) {
+    public EmployeeDTO(String empId, String empName, String empNo, String email, String phone, String deptCode, String jobCode, String salLevel, int salary, Double bonus, String managerId, Date hireDate, Date entDate, String entYn) {
         this.empId = empId;
         this.empName = empName;
         this.empNo = empNo;
@@ -30,7 +43,7 @@ public class EmployeeDTO {
         this.phone = phone;
         this.deptCode = deptCode;
         this.jobCode = jobCode;
-        this.selLevel = selLevel;
+        this.salLevel = salLevel;
         this.salary = salary;
         this.bonus = bonus;
         this.managerId = managerId;
@@ -95,12 +108,12 @@ public class EmployeeDTO {
         this.jobCode = jobCode;
     }
 
-    public String getSelLevel() {
-        return selLevel;
+    public String getSalLevel() {
+        return salLevel;
     }
 
-    public void setSelLevel(String selLevel) {
-        this.selLevel = selLevel;
+    public void setSalLevel(String salLevel) {
+        this.salLevel = salLevel;
     }
 
     public int getSalary() {
@@ -161,7 +174,7 @@ public class EmployeeDTO {
                 ", phone='" + phone + '\'' +
                 ", deptCode='" + deptCode + '\'' +
                 ", jobCode='" + jobCode + '\'' +
-                ", selLevel='" + selLevel + '\'' +
+                ", selLevel='" + salLevel + '\'' +
                 ", salary=" + salary +
                 ", bonus=" + bonus +
                 ", managerId='" + managerId + '\'' +
