@@ -5,8 +5,5 @@
         SELECT E.*
         FROM EMPLOYEE E
         WHERE E.EMP_NAME LIKE CONCAT(?, '%')
-
     </entry>
-
-
 </properties>
