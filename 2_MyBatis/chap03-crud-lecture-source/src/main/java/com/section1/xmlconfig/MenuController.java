@@ -56,13 +56,36 @@ public class MenuController {
     }
 
     // 4. 메뉴 수정하기
-    public void modifyMenu() {
+    public void modifyMenu(Map<String, String> parameter) {
+
+        int code = Integer.parseInt(parameter.get("code"));
+        String name = parameter.get("name");
+        int price = Integer.parseInt(parameter.get("price"));
+        int categoryCode = Integer.parseInt(parameter.get("categoryCode"));
+
+        MenuDTO menu = new MenuDTO();
+        menu.setCode(code);
+        menu.setName(name);
+        menu.setPrice(price);
+        menu.setCategoryCode(categoryCode);
+
+        if(menuService.modifyMenu(menu)) {
+            printResult.printSuccessMessage("update");
+        } else {
+            printResult.printErrorMessage("update");
+        }
 
     }
 
     // 5. 메뉴 삭제하기
-    public void deleteMenu() {
+    public void deleteMenu(Map<String, String> parameter) {
+        int code = Integer.parseInt(parameter.get("code"));
 
+        if(menuService.deleteMenu(code)) {
+            printResult.printSuccessMessage("delete");
+        } else {
+            printResult.printErrorMessage("delete");
+        }
     }
 
 }
