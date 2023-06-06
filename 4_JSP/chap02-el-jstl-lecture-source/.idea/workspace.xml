@@ -9,32 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb5ad7b-2dbb-4988-991a-a0b9dc915cd4" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/el/controller/TestFourServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/el/controller/TestOneServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/el/controller/TestTwoServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/el/model/dto/MemberDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/action/common.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/action/testAction.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/action/testForward.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/el/testEl1.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/el/testEl2.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/el/testEl3.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/el/testEl4.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/jstl/testFuncion.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/jstl/testJstlCore.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/jstl/testJstlCoreResult.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/views/jstl/testJstlFmt.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3_Serviet/chap12-listener-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_Serviet/chap12-listener-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../3_Serviet/chap13-file-io-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../3_Serviet/chap13-file-io-lecture-source/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chap01-jsp-lecture-source/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chap01-jsp-lecture-source/.idea/gradle.xml" afterDir="false" />
-    </list>
+    <list default="true" id="ebb5ad7b-2dbb-4988-991a-a0b9dc915cd4" name="변경" comment="20230606 JSP el &amp; jstl commit" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -222,11 +197,23 @@
       <option name="presentableId" value="Default" />
       <updated>1685924893720</updated>
       <workItem from="1685924894779" duration="9371000" />
-      <workItem from="1686010112933" duration="1663000" />
+      <workItem from="1686010112933" duration="2860000" />
     </task>
+    <task id="LOCAL-00001" summary="20230606 JSP el &amp; jstl commit">
+      <created>1686013548144</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1686013548144</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="20230606 JSP el &amp; jstl commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="20230606 JSP el &amp; jstl commit" />
   </component>
 </project>
