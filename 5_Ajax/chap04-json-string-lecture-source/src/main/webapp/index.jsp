@@ -51,6 +51,7 @@
            });
         });
     </script>
+
     <h3>1-3. 데이터 전송 없이 응답 헤더를 설정 후 jsonArray 반환</h3>
     <button id="send-get-3">Send</button>
     <script>

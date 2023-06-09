@@ -9,7 +9,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebb5ad7b-2dbb-4988-991a-a0b9dc915cd4" name="변경" comment="20230606 JSP el &amp; jstl commit" />
+    <list default="true" id="ebb5ad7b-2dbb-4988-991a-a0b9dc915cd4" name="변경" comment="20230606 JSP el &amp; jstl commit">
+      <change afterPath="$PROJECT_DIR$/../../5_Ajax/chap03-simple-ajax-lecture-source/src/main/java/com/section01/FirstMessageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5_Ajax/chap03-simple-ajax-lecture-source/src/main/java/com/section01/FirstReceiveAjaxServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5_Ajax/gym-employee-management/src/main/webapp/WEB-INF/views/common/errorPage.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5_Ajax/gym-employee-management/src/main/webapp/WEB-INF/views/common/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../5_Ajax/gym-employee-management/src/main/webapp/WEB-INF/views/common/successPage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../02_MyBatis" beforeDir="false" afterPath="$PROJECT_DIR$/../../02_MyBatis" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,23 +69,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/github/univ_repo/4_JSP/chap02-el-jstl-lecture-source",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/github/univ_repo/4_JSP/chap02-el-jstl-lecture-source&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\github\univ_repo\4_JSP\chap02-el-jstl-lecture-source\src\main\webapp\views" />
@@ -110,7 +118,7 @@
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="9638d858-29c2-4e68-a4ba-be7b4b2d8b07" />
         <option name="HTTP_PORT" value="8007" />
-        <option name="JNDI_PORT" value="1100" />
+        <option name="JNDI_PORT" value="1098" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -198,6 +206,7 @@
       <updated>1685924893720</updated>
       <workItem from="1685924894779" duration="9371000" />
       <workItem from="1686010112933" duration="2860000" />
+      <workItem from="1686033473937" duration="4207000" />
     </task>
     <task id="LOCAL-00001" summary="20230606 JSP el &amp; jstl commit">
       <created>1686013548144</created>
